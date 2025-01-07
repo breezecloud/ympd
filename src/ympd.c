@@ -30,6 +30,8 @@
 #include "config.h"
 
 extern char *optarg;
+struct t_mpd mpd;
+char dirble_api_token[28];
 
 int force_exit = 0;
 
